@@ -3,6 +3,7 @@
 from flask import Flask, render_template
 from models import storage
 from models.state import State
+from sqlalchemy import orm
 
 app = Flask(__name__)
 HOST = '0.0.0.0'
@@ -18,20 +19,21 @@ def teardown(context):
 @app.route('/states', strict_slashes=False)
 def states_route():
     '''Method to load states'''
-    stateList = storage.all(State)
+    stateDict = storage.all(State)
 
-    return render_template('9-states.html', stateList=stateList)
+    return render_template('9-states.html', stateDict=stateDict)
 
 
 @app.route('/states/<id>', strict_slashes=False)
 def state_id_route(id):
     '''Method to load states'''
-    stateList = storage.all(State)
-    match = True
-    for state in stateList.values():
-        if state.id == id:
-            matchState = state
-            return render_template('9-states.html', state=matchState)
+    stateDict = storage.all(State)
+    try:
+        state = stateDict.get("State.{}".format(id))
+        return render_template('9-states.html', state=state)
+    except BaseException:
+        return render_template('9-states.html')
+
 
 if __name__ == "__main__":
     app.run(HOST, PORT)
