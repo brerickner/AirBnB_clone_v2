@@ -31,7 +31,7 @@ def state_id_route(id):
     try:
         state = stateDict.get("State.{}".format(id))
         return render_template('9-states.html', state=state)
-    except BaseException:
+    except:
         return render_template('9-states.html')
 
 
