@@ -4,8 +4,8 @@ header {
     width: 100%;
     border-bottom: 1px #CCCCCC solid;
 }
-.logo {
-    background-image: url("/AirBnB_clone/web_static/images/logo.png");
+#logo {
+    background-image: url("../images/logo.png");
     height: 60px;
     width: 142px;
     margin-left: 20px;

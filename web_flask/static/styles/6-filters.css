@@ -75,61 +75,7 @@ h4 {
     margin-bottom: 5px;
 }
 .popover ul li {
-    list-style-type: <!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<title>Holberton HBnB</title>
-		<link rel="ICON" href="images/icon.png" type="image/ICON"/>
-		<link rel="stylesheet" href="styles/4-common.css">
-		<link rel="stylesheet" href="styles/3-header.css">
-		<link rel="stylesheet" href="styles/3-footer.css">
-		<link rel="stylesheet" href="styles/6-filters.css">
-	</head>
-	<body>
-		<header>
-			<div class="logo"></div>
-		</header>
-		<div class="container">
-			<section class="filters">
-				<button type="button">Search</button>
-				<div class="locations">
-					<h3>States</h3>
-					<h4>Michigan, Oklahoma..</h4>
-					<ul class="popover">
-							<li>
-								<h2>Oklahoma:</h2>
-								<ul>
-									<li>Tulsa</li>
-									<li>Broken Arrow</li>
-								</ul>
-							</li>
-							<li>
-								<h2>Michigan:</h2>
-								<ul>
-									<li>Midland</li>
-									<li>Detroit</li>
-								</ul>
-							</li>
-					</ul>
-				</div>
-				<div class="amenities">
-					<h3>Amenitites</h3>
-					<h4>Pet-friendly, Pool..</h4>
-					<ul class="popover">
-						<li>Pool</li>
-						<li>Pet-Friendly</li>
-						<li>Private Room</li>
-						<li>Free Cancellation</li>
-					</ul>
-				</div>
-			</section>
-		</div>
-		<footer>
-			<p>Holberton School</p>
-		</footer>     
-	</body>
-	</html>
-	none;
+    list-style-type: none;
     padding-top: 2px;
     padding-bottom: 4px;
     margin-left: -30px;
