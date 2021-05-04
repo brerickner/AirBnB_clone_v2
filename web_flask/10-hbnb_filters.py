@@ -4,6 +4,8 @@ from flask import Flask, render_template
 from models import storage
 from models.state import State
 from models.amenity import Amenity
+from models.place import Place
+from models.city import City
 from sqlalchemy import orm
 
 app = Flask(__name__)
