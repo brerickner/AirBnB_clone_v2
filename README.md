@@ -5,7 +5,7 @@
 #  :house_with_garden: AirBnB-clone - v.02
 
 <p align="center">
-<a href="https://github.com/brerickner/AirBnB_clone_v4">
+<a href="https://github.com/brerickner/AirBnB_clone_v2">
     <img src="HBNB_image.png" alt="logo" width="500" height="200"></a>
 </p>
 
