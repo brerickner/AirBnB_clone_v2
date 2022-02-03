@@ -9,6 +9,13 @@
     <img src="HBNB_image.png" alt="logo" width="500" height="200"></a>
 </p>
 
+<p align="center">
+<a href="https://scrutinizer-ci.com/g/brerickner/AirBnB_clone_v2/?branch=maste"><img src="https://scrutinizer-ci.com/g/brerickner/AirBnB_clone_v2/badges/quality-score.png?b=master" alt="quality score" title="AirBnB-Clone code quality score (1-10)"></a>
+<a href="https://scrutinizer-ci.com/g/brerickner/AirBnB_clone_v2/build-status/master"><img src="https://scrutinizer-ci.com/g/brerickner/AirBnB_clone_v2/badges/build.png?b=master" alt="build status" title="Build Successful!"></a>
+<a href="https://scrutinizer-ci.com/code-intelligence"><img src="https://scrutinizer-ci.com/g/brerickner/AirBnB_clone_v2/badges/code-intelligence.svg?b=master" alt="code intelligence" title="Code Intelligence available"></a>
+</p>
+
+## :arrow_forward: Introduction
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
 
 ---
